@@ -1,0 +1,32 @@
+.MuiOutlinedInput-notchedOutline {
+    border-color: #8ab0a0 !important;
+}
+
+.MuiInputLabel-root {
+    color: #00000099 !important;
+    font-family: cursive !important;
+}
+
+.MuiFilledInput-root {
+    border-bottom: 1px solid black !important;
+}
+
+.pt-4 {
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+}
+
+.MuiBox-root .css-1aquho2-MuiTabs-indicator {
+    background-color: #8ab0a0;
+    color: #00000099;
+}
+
+.MuiBox-root .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    color: #00000099;
+    font-family: cursive;
+}
+
+.MuiBox-root .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #00000099;
+}

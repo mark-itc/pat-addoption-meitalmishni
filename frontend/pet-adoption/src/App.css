@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-color: #112022;
+  /* width: 100vw; */
+  /* height: 100vh; */
+  height: 100%;
+  font-family: cursive;
 }
 
 .App-logo {
@@ -32,7 +37,49 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.App .navbar {
+  height: 8%;
+}
+
+.container {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.App .content-item.container {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 2%;
+  height: 92%;
+  overflow: auto;
+  color: #00000099;
+}
+
+.App .content-item.container .content {
+  margin-bottom: 1%;
+}
+
+.align-header {
+  text-align: left;
+}
+
+h3 {
+  font-weight: 800;
+}
+
+.custom-buttom {
+  background: #9fccb1;
+  width: 20%;
+  padding: 1%;
+  border-radius: 15px;
+  color: #46695d;
+  border: none;
 }

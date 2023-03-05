@@ -1,0 +1,42 @@
+.top-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 55%;
+}
+
+.top-content .top-content-left {
+    width: 50%;
+    /* background-image: url('https://i.postimg.cc/VNpZmsnY/kate-stone-matheson-uy5t-CJu-IK4-unsplash.jpg'); */
+    /* background-image: url('https: //itcfullstack.s3.ap-northeast-1.amazonaws.com/alvan-nee-ZCHj_2lJP00-unsplash.jpg'); */
+    /* background-size: cover; */
+}
+
+.home-image {
+    width: 100%;
+    height: 100%;
+}
+
+.top-content .top-content-right {
+    width: 50%;
+    padding-top: 2%;
+    background-color: #1c3437;
+}
+
+.top-content-right p {
+    color: white;
+}
+
+.top-content-right .search {
+    margin-top: 10%;
+}
+
+.top-content-right .search h2 {
+    color: #8ab0a0;
+    font-family: cursive;
+}
+
+.bottom-content {
+    padding: 5%;
+    text-align: left;
+}

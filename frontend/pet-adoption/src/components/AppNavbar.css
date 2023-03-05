@@ -1,0 +1,48 @@
+.navbar-container {
+    background-color: transparent;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    color: #8ab0a0 !important;
+}
+
+.logout {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    margin-top: 0.5%;
+}
+
+
+/* .navMenu {
+    position: absolute;
+    top: 3%;
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    align-content: center;
+}
+
+.navMenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+    color: #8ab0a0;
+} */

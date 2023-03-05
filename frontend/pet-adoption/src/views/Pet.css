@@ -1,0 +1,33 @@
+.pet-image {
+    border-radius: 10%;
+    height: 50%;
+    width: 30%;
+}
+
+.pet-details {
+    margin-top: 3%;
+}
+
+.adopt-foster {}
+
+.pet-button .custom-buttom {
+    margin: 2%;
+}
+
+button:disabled,
+button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.pet-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pet-content .pet-form {
+    display: inline-block;
+    margin-top: 3%;
+}

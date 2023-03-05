@@ -128,7 +128,7 @@ export function ModalBox(props) {
             <Modal show={show} onHide={handleModalClose}>
                 <Form noValidate>
                     <Modal.Header closeButton>
-                        <Modal.Title>{titleText}</Modal.Title>
+                        <h3>{titleText}</h3>
                     </Modal.Header>
                     <Modal.Body>
                         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -237,7 +237,7 @@ export function ModalBox(props) {
                             Close
                         </Button>
 
-                        <Button variant="primary" onClick={formValidation}>
+                        <Button className="log-button" variant="primary" onClick={formValidation}>
                             {buttonText}
                         </Button>
                     </Modal.Footer>

@@ -83,3 +83,13 @@ h3 {
   color: #46695d;
   border: none;
 }
+
+.modal-content {
+  font-family: cursive;
+}
+
+.modal-content .modal-footer .log-button {
+  background: #9fccb1;
+  color: #46695d;
+  border: none;
+}
